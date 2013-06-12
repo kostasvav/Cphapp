@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cphapp</title>
+  <%= stylesheet_link_tag    "application", "style", "cphapp", :media => "all" %>
+  <%= javascript_include_tag "application", "style" %> 
+  <%= csrf_meta_tags %>
+  <%= yield :head %>
+</head>
+<body>
+
+<%= yield %>
+<%= yield :scripts %>
+
+</body>
+</html>

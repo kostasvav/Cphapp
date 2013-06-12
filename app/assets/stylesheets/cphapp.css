@@ -1,0 +1,189 @@
+/* Global styles */
+
+h1 {
+        font-size: 2em;
+        text-align: left;
+        line-height: 1.2em;
+		color: #666;
+}
+
+/* Styles for places/index */
+
+#place-list table {
+        border-collapse: collapse;
+        margin-left:auto;
+		margin-right:auto;
+		width:80%;
+		
+}
+
+#place-list table tr td {
+        padding: 5px;
+        vertical-align: top;
+        float: left;      
+}
+
+#place-list .list-image {
+  width: 640px;
+  height: 360px;
+}
+
+#place-list .list-thumbimage {
+  width: 90px;
+  height: 68px;
+}
+
+#place-list .list-description {
+  width:        60%;
+}
+
+#place-list .list-description dl {
+        margin: 0;
+}
+
+#place-list .list-description dt {
+	color:        #244;
+	font-weight:  bold;
+	font-size:    larger;
+}
+
+#place-list .list-description dd {
+        margin: 0;
+}
+
+#place-list .list-actions {
+  font-size:    x-small;
+  text-align:   right;
+  padding-left: 1em;
+}
+
+
+/* The error box */
+
+.cphapp-form fieldset {
+  background: #efe;
+}
+
+.cphapp-form legend {
+  color: #dfd;
+  background: #141;
+  font-family: sans-serif;
+  padding: 0.2em 1em;
+}
+
+.cphapp-form label {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+
+.cphapp-form select, .cphapp-form textarea, .cphapp-form input {
+  margin-left: 0.5em;
+}
+
+.cphapp-form .submit {
+  margin-left: 4em;
+}
+
+.cphapp-form div {
+  margin: 0.5em 0;
+}
+/* END:form */
+
+/* The error box */
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: #EEFFEE;
+  display: inline;
+}
+
+.fieldWithErrors * {
+  background-color: red;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+.cph_pagination {
+	text-align: center;
+	padding: .3em;}
+
+.cph_pagination a, .cph_pagination span {
+	padding: .2em .5em;}
+
+.cph_pagination span.disabled {
+	color: #555;}
+
+.cph_pagination span.current {
+	font-weight: bold;
+	color: #FF0084;}
+
+.cph_pagination a {
+	border: 1px solid #DDDDDD;
+	color: #0063DC;
+	text-decoration: none;}
+
+.cph_pagination a:hover, .cph_pagination a:focus {
+	border-color: #003366;
+	background: #0063DC;
+	color: white;}
+
+.cph_pagination .page_info {
+	color: #aaa;
+	padding-top: .8em;}
+	
+.cph_pagination .prev_page, .cph_pagination .next_pae {
+	border-width: 2px;}
+
+.cph_pagination .prev_page {
+	margin-right: 1em;}
+
+.cph_pagination .next_page {
+	margin-left: 1em;}
+
+div.map_container_renamed #map {
+  width: 250px;
+  height: 150px;
+}
+
+div.map_container_renamed {
+  padding: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc #ccc #999 #ccc;
+  -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+  -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+  box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+  width: 210px;
+}	
